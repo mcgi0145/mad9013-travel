@@ -1,0 +1,162 @@
+/*******************************************
+				Defaults
+
+Remember to use something like type-scale.com 
+to get your font sizes
+*******************************************/
+*{
+	padding: 0;
+	margin: 0;
+    color: #3D057F;
+}
+html,body{
+text-align: center;
+background-color: #621BB2;
+
+}
+h1{
+margin-top: 5%;
+margin-bottom: 2%;
+color: #1FCC53;
+
+}
+h2{
+margin-bottom: 5%;
+
+}
+p{
+margin-bottom: 2%;
+
+}
+.col{
+ margin: 5%;   
+}
+.col1 {
+ margin: 5%;   
+}
+.slider{
+ width: 35%;
+margin: 0% 32.5%;
+}
+/*******************************************
+				Layout
+*******************************************/
+.wrapper{
+	
+}
+.masthead{
+	
+}
+.main{
+margin: 5%;
+border: 3px solid #00B236;
+border-radius: 25px;
+padding: 5%;
+box-shadow: 2px 4px 4px #005C1C;
+background-color: #FFA31E;
+	
+}
+.foot{
+margin-top: 2%;
+color: #1FCC53;
+	
+}
+.people {
+ width: 3%; 
+    
+}
+.money {
+ width: 3%;   
+}
+
+/*******************************************
+				Form Styles
+*******************************************/
+#departure, #destination, #departure_dt, #return_dt{
+margin-top: 2%;
+margin-bottom: 3%;
+
+
+}
+#departure_dt, #return_dt{
+ margin-bottom: 5%;   
+}
+.buttons{
+	
+}
+label{
+	
+}
+input[type=text],
+input[type=number],
+input[type=date]{
+	
+}
+input[type=submit],
+input[type=reset]{
+	
+}
+
+
+/*******************************************
+				Image Styles
+*******************************************/
+
+@media all and (min-width: 500px) and (max-width: 779px) {
+    #departure, #destination, #departure_dt, #return_dt{
+    float: left;
+    width: 35%;
+    margin-right: 7%;
+    margin-left: 7%
+    }
+    .departcity{
+    position: absolute;
+    margin: -1% -34%;
+    width: 2%;   
+    }
+     .destcity {
+    position: absolute;
+    margin: -1% -14%;
+    width: 2%;   
+    }
+    .departdate{
+     position: absolute;
+    margin: 5% -73%;
+    width: 2%;  
+    }
+    .returndate{
+      position: absolute;
+    margin: 5% -33.5%;
+    width: 2%; 
+    }
+}
+
+@media all and (min-width: 780px) {
+    #departure, #destination, #departure_dt, #return_dt{
+    float: left;
+    width: 19%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    }
+    .departcity {
+     position: absolute;
+        margin: -1% -37%;
+        width: 2%;   
+    }
+    .destcity {
+     position: absolute;
+        margin: -1% -27%;
+        width: 2%;   
+    }
+    .departdate{
+     position: absolute;
+    margin: -1% -17%;
+        width: 2%;
+    }
+    .returndate{
+      position:absolute;
+        margin: -1% -7%;
+        width: 2%;
+    }
+    
+}
